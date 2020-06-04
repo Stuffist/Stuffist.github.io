@@ -1,0 +1,151 @@
+%%%%%%%%%%%%%%%%%
+% This is an sample CV template created using altacv.cls
+% (v1.1.5, 1 December 2018) written by LianTze Lim (liantze@gmail.com). Now compiles with pdfLaTeX, XeLaTeX and LuaLaTeX.
+%%%%%%%%%%%%%%%%
+
+%% If you need to pass whatever options to xcolor
+\PassOptionsToPackage{dvipsnames}{xcolor}
+
+\documentclass[10pt,a4paper,ragged2e]{altacv}
+
+% Change the page layout if you need to
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm}
+
+% If using pdflatex:
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+
+% Change the colours if you want to
+\definecolor{Mulberry}{HTML}{72243D}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{Sepia}
+\colorlet{accent}{Mulberry}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Change the bullets for itemize and rating marker for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+\begin{document}
+\name{Yannick Lorenzati}
+\tagline{Cloud \& DevOps Engineer}
+\photo{2.8cm}{img/photo_cv.png}
+\personalinfo{%
+  % You can add your own with \printinfo{symbol}{detail}
+  \email{yannick.lorenzat@gmail.com}
+  \phone{+33 6 37 77 87 66}
+  \location{Paris area, France}
+  \linkedin{linkedin.com/in/yannick-lorenzati}
+  \github{github.com/ylorenzati}
+}
+
+%% Make the header extend all the way to the right, if you want.
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+%% Provide the file name containing the sidebar contents as an optional parameter to \cvsection.
+%% You can always just use \marginpar{...} if you do
+%% not need to align the top of the contents to any
+%% \cvsection title in the "main" bar.
+\cvsection[page1sidebar]{About me}
+	\quad Experienced and innovative Cloud and DevOps engineer with a strong experience in Java development, I am passionate by performance analysis, scalability, resilience and software architecture related subjects. 
+	
+	\medskip
+	\quad Working in the dev sector for 10 years, I focus on delivering high quality software through high quality automation. 
+	
+	\medskip
+	\quad Community enthousiats, I contribute to the best of my ability to open source initiatives.
+	
+
+%% If the NEXT page doesn't start with a \cvsection but you'd
+%% still like to add a sidebar, then use this command on THIS
+%% page to add it. The optional argument lets you pull up the
+%% sidebar a bit so that it looks aligned with the top of the
+%% main column.
+\addnextpagesidebar[-1ex]{page2sidebar}
+
+\bigskip
+\cvsection{Experience}
+	\cvevent{Cloud Architect}{Xebia France for Voyages-sncf.com, SNCF App}{Jul 2018 -- Oct 2018}{Paris, France}
+		
+		SNCF Application provide all the traffic and itinerary information about travel in France. The backend is hosted in \textbf{AWS} public cloud.
+		
+		\medskip
+		\begin{itemize}	
+			\item Evangelization around \textbf{cloud infrastructure architecture} and \textbf{security} bests practices.
+			\item Long term planification and first implementation of those bests practices.
+		\end{itemize}
+	\divider
+
+
+	\cvevent{Site Reliability Engineer}{Xebia France for Talend}{Jan 2018 -- Jun 2018}{Paris, France}
+
+		Talend SRE team is in charge of building and running all the infrastructure and related projects (monitoring, logging...). Infrastructure is hosted in \textbf{AWS} public cloud on\textbf{ ~1000 vms}. SRE \textbf{team is distributed across USA, Europe and China}.
+	
+		\medskip
+		\begin{itemize}
+			\item Conception and implementation of a new monitoring and alerting stack based on \textbf{Prometheus}, \textbf{Alertmanager} and \textbf{Grafana}. Infrastructure is \textbf{immutable} and fully automatized.
+			\item Setup automatic metadata (AWS Tags) on all the infrastructure to help more clever exploitation and audit.
+			\item Evangelization and Proof of concept of using \textbf{Terraform} instead of \textbf{CloudFormation} to handle infrastructure automation.
+		\end{itemize}
+	\divider
+
+	\cvevent{Senior Software Engineer}{Xebia France for Voyages-sncf.com Technical Direction}{Feb 2016 -- Dec 2017}{Paris, France}
+	
+		Technical Direction have a team of experts to handle very different tasks: Deep performance analysis, qualification of new technologies, DevOps task and R\&D.
+		
+		\medskip
+		\begin{itemize}
+			\item Setup of \textbf{Terraform} drived by \textbf{Jenkins Pipelines} to deploy project from development to \textbf{production}.
+			\item Qualification and industrialization of a\textbf{ Mesos Marathon} cluster.
+			\item TechLead on self-service infrastructure project. Back Development in \textbf{Python}, setup of \textbf{Docker Swarm Mode} to host the application and \textbf{Jenkins pipelines} for \textbf{continous deployment}.
+			\item Various performances analysis. Recommendation about JVM tunning, middleware, OS, Hypervisor and code optimization.
+			\item Qualification of technical product : \textbf{Redis cluster} and \textbf{shared MongoDB cluster} to be production ready.
+			\item Toolings around Docker: \textbf{Puppet} module for Docker, \textbf{building factory} for Docker images and CI with on-demand \textbf{Docker slaves}.
+			\item Many development contribution for team's tool. \textbf{Java}, \textbf{Ruby} and \textbf{Go} were the main languages.
+		\end{itemize}
+	\divider
+
+
+	\cvevent{Software Engineer}{STET}{Aug 2013 -- Jan 2016}{Paris, France}
+	
+		STET is the historical European Automated Clearing House. It is responsible for more than 24 billion transactions a year.
+	
+		\medskip
+		\begin{itemize}
+			\item Leading a \textbf{seven person team} to handle automatic installation from infrastructure to application and data. Transition from \textbf{40 manual steps in one week} to an \textbf{automatic steps of 2 hours}.
+			\item Leading multiple projects to kick out all IBM middleware and replace them by\textbf{ open source} technologies.
+			\item Developing a tool able to build a full system on a virtual machine to play integrations and performances tests.
+		\end{itemize}
+	\divider
+
+	\cvevent{Software Engineer}{Capgemini FSGBU for STET}{ Nov 2010 -- Jul 2013}{Paris, France}
+		\begin{itemize}
+			\item Various development environment migration: Windows to \textbf{Linux}, Svn to \textbf{Git}, CruiseControl to \textbf{Jenkins}.
+			\item Various \textbf{Java} and \textbf{Scala} development.
+		\end{itemize}
+	\divider
+
+	\cvevent{Software Engineer intern}{SII}{Apr 2010 -- Sep 2010}{Aix-en-Provence, France}
+		\begin{itemize}
+			\item Skill management tool development in Java EE
+		\end{itemize}
+
+\bigskip
+\cvsection{Other Experience}
+	\cvevent{One year traveling in Asia}{}{ Oct 2018 -- Dec 2019}{}
+	
+		Traveling during one year in India, Sri Lanka, Thailand, Cambodia, Indonesia and Malaysia. Most of the time off the beaten track. 
+		
+		\medskip
+		\begin{itemize}
+			\item Practiced extensive \textbf{problem-solving} and cross-cultural \textbf{communication skills}.
+			\item Participated in 4-month hatha \textbf{yoga} course in India.
+			\item \textbf{Meditation} with buddhist monks in Thailand.
+			\item Volunteer work with elephants in Thailand.
+		\end{itemize}
+\end{document}
