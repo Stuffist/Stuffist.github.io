@@ -85,9 +85,9 @@
   \begingroup
     \ifdef{\@photodiameter}{\begin{minipage}{\dimexpr\linewidth-\@photodiameter-2em}}{}%
     \raggedright\color{emphasis}%
-    {\Huge\bfseries\MakeUppercase{\@name}\par}
+    {\centering\Huge\bfseries\MakeUppercase{\@name}\par}
     \medskip
-    {\LARGE\bfseries\color{accent}\@tagline\par}
+    {\centering\LARGE\bfseries\color{accent}\@tagline\par}
     \medskip
     {\footnotesize\bfseries\@personalinfo\par}
     \ifdef{\@photodiameter}{%
