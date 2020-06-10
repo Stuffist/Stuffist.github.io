@@ -9,7 +9,8 @@
 \documentclass[10pt, a4paper, ragged2e]{altacv}
 
 % Change the page layout if you need to
-\geometry{left=1cm,right=6cm,marginparwidth=3.8cm,marginparsep=1cm,top=1cm,bottom=1cm}
+% \geometry{left=1cm,right=6cm,marginparwidth=3.8cm,marginparsep=1cm,top=1cm,bottom=1cm}
+\geometry{left=6cm,right=1cm,marginparwidth=3.8cm,marginparsep=1cm,top=1cm,bottom=1cm}
 
 % If using pdflatex:
 \usepackage[utf8]{inputenc}
@@ -24,6 +25,8 @@
 \colorlet{accent}{Mulberry}
 \colorlet{emphasis}{SlateGrey}
 \colorlet{body}{LightGrey}
+
+\reversemarginpar
 
 % Change the bullets for itemize and rating marker for \cvskill if you want to
 \renewcommand{\itemmarker}{{\small\textbullet}}
@@ -43,9 +46,9 @@
 }
 
 %% Make the header extend all the way to the right, if you want.
-\begin{fullwidth}
+\begin{adjustwidth}{-5cm}{}
 \makecvheader
-\end{fullwidth}
+\end{adjustwidth}
 
 %% Provide the file name containing the sidebar contents as an optional parameter to \cvsection.
 %% You can always just use \marginpar{...} if you do not need to align the top of the contents to
@@ -53,7 +56,7 @@
 \cvsection[page1sidebar]{About me}
 	\justify \quad Experienced C++ developer with a strong experience in backend side process, cache management and cloud related problematics. Since a couple of years I also work with big data and machine learning techniques to propose disruptive and innovative features.
 	
-	\smallskip
+	\medskip
 	\justify \quad Being a dev for 10+ years, I learnt to build both reliable and efficient solutions - including operational concerns at the very first steps of the design.
 	
 	\medskip

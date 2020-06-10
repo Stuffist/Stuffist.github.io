@@ -81,24 +81,37 @@
 
 \newcommand{\personalinfo}[1]{\def\@personalinfo{#1}}
 
-\newcommand{\makecvheader}{%
+\newcommand{\makecvheader}{
   \begingroup
-    \ifdef{\@photodiameter}{\begin{minipage}{\dimexpr\linewidth-\@photodiameter-2em}}{}%
-    \raggedright\color{emphasis}%
-    {\centering\Huge\bfseries\MakeUppercase{\@name}\par}
+  
+    \ifdef{\@photodiameter}
+    {
+      \begin{minipage}{\@photodiameter}
+        \if@normalphoto
+          \includegraphics[width=\linewidth]{\@photo}
+        \else
+          \tikz\path[fill overzoom image={\@photo}]circle[radius=0.5\linewidth];
+        \fi%
+      \end{minipage}
+    }
+
+    \ifdef{\@photodiameter}
+    {
+      \begin{minipage}{\dimexpr\linewidth-\@photodiameter-2em}
+    }{}
+    
+    \centering\color{emphasis}
+    {\Huge\bfseries\MakeUppercase{\@name}\par}
     \medskip
-    {\centering\LARGE\bfseries\color{accent}\@tagline\par}
+    {\LARGE\bfseries\color{accent}\@tagline\par}
     \medskip
     {\footnotesize\bfseries\@personalinfo\par}
-    \ifdef{\@photodiameter}{%
-    \end{minipage}\hfill%
-    \begin{minipage}{\@photodiameter}
-    \if@normalphoto
-      \includegraphics[width=\linewidth]{\@photo}
-    \else
-      \tikz\path[fill overzoom image={\@photo}]circle[radius=0.5\linewidth];
-    \fi%
-    \end{minipage}\par}{}%
+    
+    \ifdef{\@photodiameter}
+    {
+      \end{minipage}\hfill
+    }
+  
   \endgroup\medskip
 }
 
