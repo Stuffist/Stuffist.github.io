@@ -97,7 +97,7 @@
 
     \ifdef{\@photodiameter}
     {
-      \begin{minipage}{\dimexpr\linewidth-\@photodiameter-2em}
+      \begin{minipage}{\dimexpr\linewidth-\@photodiameter+1em}
     }{}
     
     \centering\color{emphasis}

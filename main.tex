@@ -10,7 +10,7 @@
 
 % Change the page layout if you need to
 % \geometry{left=1cm,right=6cm,marginparwidth=3.8cm,marginparsep=1cm,top=1cm,bottom=1cm}
-\geometry{left=6cm,right=1cm,marginparwidth=3.8cm,marginparsep=1cm,top=1cm,bottom=1cm}
+\geometry{left=6cm,right=1cm,marginparwidth=4.2cm,marginparsep=1cm,top=1cm,bottom=1cm}
 
 % If using pdflatex:
 \usepackage[utf8]{inputenc}
@@ -46,7 +46,7 @@
 }
 
 %% Make the header extend all the way to the right, if you want.
-\begin{adjustwidth}{-5cm}{}
+\begin{adjustwidth}{-3.7cm}{}
 \makecvheader
 \end{adjustwidth}
 
@@ -71,7 +71,7 @@
 
 \bigskip
 \cvsection{Experience}
-	\cvevent{Software Development Engineer}{Amadeus IT Group, Availability }{Sept. 2010 -- Now}{Sophia-Antipolis (06), France}
+	\cvevent{Software Development Engineer}{Amadeus IT Group, Availability}{Sep. 2010 -- Now}{Sophia-Antipolis (06), France}
 		
 		Amadeus is one of the biggest IT provider in travel and tourism industry, operating the world largest GDS (${\sim}2000$M passengers boarded) among other products.
 		Availability Process Engine is in charge of answering availability requests and providing seats and classes available for each flight (${\sim}5$ trx/sec mean, ${\sim}5$ peak time).
@@ -84,38 +84,63 @@
 			\item Backend development and maintenance on \textbf{Availability Process Engine} - Key project: integration of external providers/aggregators content (\textbf{Pyton, Navitaire}\ldots).
 			\item Porting \textbf{Availability Process Engine} from in-house servers to \textbf{cloud native technologies} (Google Cloud), including managing and \textbf{operating a 10To cache}.
 			\item Development and data analysis for \textbf{Data Driven Polling} and \textbf{Data Driven Segmentation}: 2 machine learning based optimization of APE processes/cache management.
-			\item Head of \textbf{Inventory Analytics and Machine learning} community - promoting ML techniques among dev community and helping people start, prototype and deploy their ideas.
+			\item Head of \textbf{Inventory Analytics and Machine learning} community - promoting ML techniques among dev community and helping people from prototyping to industrialization.
 		\end{itemize}
 	\divider
 
-%% \cvevent SUPRALOG ! Abruti !
-%%			\item Backend development and maintenance on \textbf{Ticketing and Issuance parts} - Key project: integration of \textbf{Southwest Airlines} into Amadeus' Altéa suite.
+	\cvevent{Software Development Engineer}{Supralog for Amadeus IT Group, Ticketing}{Sep. 2010 -- Jan. 2017}{Sophia-Antipolis (06), France}
 
-	\cvevent{Software Development Intern}{C.E.A Cadarache}{Mar. 2010 -- Aug. 2010}{Sophia-Antipolis (06), France}
+		In the middle of the booking process for the traveller, Ticketing is the part of system in charge of storig Pricing results and editing the pre-contract agreement before final issuance of the ticket and payment. It is thus a key part for all parties (travellers, airlines, GDS and travel agencies) where the constraints on the data integrity and exactitude replace the high traffic pressure.
+
+		\medskip
+		\begin{itemize}
+			\item Backend development and maintenance on \textbf{Ticketing, Pricing and Issuance parts} - Key project: integration of \textbf{Southwest Airlines} into Amadeus' Altéa suite.
+			\item Backend development and maintenance on \textbf{Ticketing and Pricing parts} - Key project: enhancement of Quotations to handle \textbf{B2W Varejo} features.
+			\item Member of the \textbf{Amadeus Data Governance} community - helping people designing \textbf{EDIFACT, XML or JSON} interfaces to ensure both coherence and robustness across all Amadeus services.
+		\end{itemize}
+	\divider
+
+	\cvevent{Software Development Intern}{C.E.A Cadarache}{Mar. 2010 -- Aug. 2010}{Saint-Paul-lès-Durance (13), France}
 		
-		Amadeus is one of the biggest IT provider in travel and tourism industry, operating the world largest GDS (${\sim}2000$M passengers boarded) among other products.
+		The Alternative Energies and Atomic Energy Commission conducts fundamental and applied research into many energy-related areas. One of its objectives is to lead experiments on nuclear fusion thanks to the Tore Supra tokamak reactor.
 		
 		\medskip
 		\begin{itemize}
-			\item Backend development and maintenance on \textbf{Ticketing and Issuance parts} - Key project: integration of \textbf{Southwest Airlines} into Amadeus' Altéa suite.
-			\item Backend development and maintenance on \textbf{Availability Process Engine} - Key project: integration of \textbf{Navitaire} content.
-			\item Porting \textbf{Availability Process Engine} from in-house servers to \textbf{cloud native technologies} (Google Cloud), including managing and \textbf{operating a 10To cache}.
-			\item Development and data analysis for \textbf{Data Driven Polling} and \textbf{Data Driven Segmentation}: 2 machine learning based optimization of APE processes/cache management.
-			\item Head of \textbf{Inventory Analytics and Machine learning} community - promoting ML techniques among dev community and helping people start, prototype and deploy their ideas.
+			\item \textbf{Matlab} UI development to replay \textbf{Tore Supra shocks} (runs) - for security reasons real runs are not permitted when VIPs are visiting the reactor.
+			\item Retrieving previously stored data from database and \textbf{extrapolate} missing points to \textbf{simulate and display} real-time measures.
 		\end{itemize}
 	\divider
+
+	\cvevent{Software Development Intern}{University of Reading}{Apr. 2009 -- Jun. 2009}{Reading (Berks.), England}
+		
+		The University of Reading works on several projects shared between its Department of Computer Science and its Department of Mathematics and Statistics to build pieces of software aimed at visualizing complex molecules and polymers in virtual and/or augmented reality in order to help researchers understanding empirically their behaviour. 
+		
+		\medskip
+		\begin{itemize}
+			\item Development of a 3D visualization tool usable on \textbf{PowerWalls and VR headsets} based on \textbf{OpenSG C++ lib}.
+		\end{itemize}
 
 \bigskip
 \cvsection{Other Experience}
-	\cvevent{One year traveling in Asia}{}{ Oct 2018 -- Dec 2019}{}
+	\cvevent{Manager and Player for StarCraft 2 teams}{}{2010 -- 2017}{}
 	
-		Traveling during one year in India, Sri Lanka, Thailand, Cambodia, Indonesia and Malaysia. Most of the time off the beaten track. 
-		
+		StarCraft 2 is an exigent real-time strategy videogame done by Blizzard. Since its launch it proved to be one of the most competitive online STR game, motivating me to be more than a casual player. I've been part of multiple amateur teams until I created my own equip (\textbf{Workers are Rushing}) which lead me and my passionate teammates to some pro or semi-pro results.
+
 		\medskip
 		\begin{itemize}
-			\item Practiced extensive \textbf{problem-solving} and cross-cultural \textbf{communication skills}.
-			\item Participated in 4-month hatha \textbf{yoga} course in India.
-			\item \textbf{Meditation} with buddhist monks in Thailand.
-			\item Volunteer work with elephants in Thailand.
+			\item Participation to both \textbf{online and LAN competitions} - Pandaria Wars, Koprulu league, HF LAN, Gamers Assembly, PxL-Lan\ldots
+			\item Creation and animation of \textbf{our own online tournament} series - with cashprizes and lots offered by our sponsors (Liberty Game Hosting).
+			\item Practiced some \textbf{human resources management} to help people set and reach their objectives in line with the team's ones.
+		\end{itemize}
+	\divider
+
+	\cvevent{Vice-President}{Jeux, Tu, Il}{2015 -- Now}{Saint-Laurent-du-Var (06), France}
+
+		JTI is an association promoting both historical and fantasy board games and miniatures games.
+
+		\medskip
+		\begin{itemize}
+			\item Participation to multiple events and festivals - Festival international des jeux (FIJ, Cannes), Play Azur Festival\ldots
+			\item Demonstrations and initiations to different types of games (modern board games, miniatures games).
 		\end{itemize}
 \end{document}
