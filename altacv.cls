@@ -47,6 +47,9 @@
 \RequirePackage{changepage}
 % \RequirePackage{marginfix}
 
+\usepackage[outline]{contour}
+
+
 \setlength{\parindent}{0pt}
 \newcommand{\divider}{\textcolor{body!30}{\hdashrule{\linewidth}{0.6pt}{0.5ex}}\medskip}
 
@@ -100,10 +103,10 @@
       \begin{minipage}{\dimexpr\linewidth-\@photodiameter+1em}
     }{}
     
-    \centering\color{emphasis}
-    {\Huge\bfseries\MakeUppercase{\@name}\par}
+    \centering\color{heading}
+    {\contour{green}{\Huge\bfseries\MakeUppercase{\@name}}\par}
     \medskip
-    {\LARGE\bfseries\color{accent}\@tagline\par}
+    {\LARGE\bfseries\color{emphasis}\@tagline\par}
     \medskip
     {\footnotesize\bfseries\@personalinfo\par}
     
