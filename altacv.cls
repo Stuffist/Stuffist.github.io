@@ -104,7 +104,7 @@
     }{}
     
     \centering\color{heading}
-    {\contour{black}{\Huge\bfseries\MakeUppercase{\@name}}\par}
+    {\contour{body}{\Huge\bfseries\MakeUppercase{\@name}}\par}
     \medskip
     {\LARGE\bfseries\color{emphasis}\@tagline\par}
     \medskip
