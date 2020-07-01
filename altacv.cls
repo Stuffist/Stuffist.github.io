@@ -104,11 +104,11 @@
     }{}
     
     \centering\color{heading}
-    {\contour{green}{\Huge\bfseries\MakeUppercase{\@name}}\par}
+    {\contour{black}{\Huge\bfseries\MakeUppercase{\@name}}\par}
     \medskip
     {\LARGE\bfseries\color{emphasis}\@tagline\par}
     \medskip
-    {\footnotesize\bfseries\@personalinfo\par}
+    {\footnotesize\bfseries\color{body}\@personalinfo\par}
     
     \ifdef{\@photodiameter}
     {
@@ -144,7 +144,7 @@
 \newcommand{\cvskill}[2]{%
 \textcolor{emphasis}{\textbf{#1}}\hfill
 \foreach \x in {1,...,5}{%
-  \space{\ifnumgreater{\x}{#2}{\color{body!30}}{\color{accent}}\ratingmarker}}\par%
+  \space{\ifnumgreater{\x}{#2}{\color{body!30}}{\color{heading}}\ratingmarker}}\par%
 }
 
 \newenvironment{cvcolumn}[1]{\begin{minipage}[t]{#1}\raggedright}{\end{minipage}}
