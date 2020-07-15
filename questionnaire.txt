@@ -1,56 +1,88 @@
-- Pouvez-vous me décrire votre parcours en informatique depuis votre plus jeune age ?
-Comme tout bon recit d'aventures, tout a commence presque par surprise ! Les ordinateurs m'ont toujours attire, et ce des les formations basiques qui sont dispensees au college.
-Un jour mes parents ont recupere un vieux PC et j'ai commence a reellement bricoler des choses. Au debut c'etait plutot le cote hardware qui m'attirait, donc j'ai commence a acheter des revues pour comprendre comment les differents composants fonctionnaient etc... Et dans une de ces revues il y avait un article sur QBasic, avec le code d'un jeu simpliste. C'est comme ca que j'ai decouvert la programmation et ca m'a tout de suite plu.
-J'ai commence par recopier tout le code, puis a l'alterer pour comprendre comment les choses marchaient de maniere empirique (sans internet et avec un anglais moyen de lyceen, c'etait beaucoup d'apprentissage par l'erreur...). Au final, j'ai fini par changer le jeu de base (une sorte de mini-golf) en un jeu ou 2 joueurs s'affrontent a tour de role en essayant de toucher l'autre en lancant une balle .
-Pendant ce temps, j'ai aussi decouvert le monde du jeu video - principalement grace a des amis qui avaient eux du materiel plus a jour et un acces internet et qui m'ont fournit plusieurs petits jeux sur disquettes. Ca a definitivement confirme que la programmation n'avait pour ainsi dire pas de limites !
+- Pouvez-vous me décrire votre parcours en informatique depuis votre plus jeune âge ?
+Comme tout bon récit d'aventures, tout a commencé presque par surprise !
+Un jour mes parents ont récupéré un vieux PC et j'ai commencé à bricoler des choses, je devais avoir autour de 13-14 ans. Au début c'était plutôt le côté hardware qui m'attirait, donc j'ai commencé à acheter des revues pour comprendre comment les différents composants fonctionnaient etc... Et dans une de ces revues il y avait un article sur QBasic, avec le code d'un jeu simpliste. C'est comme ça que j'ai découvert la programmation et ça m'a tout de suite plu.
+J'ai commencé par recopier tout le code, puis à l'altérer pour comprendre comment les choses marchaient de manière empirique (sans internet et avec un anglais basique de collégien, c'était beaucoup d'apprentissage par l'erreur...). Au final, j'ai fini par modifier le jeu de base (une sorte de mini-golf) en un jeu ou 2 joueurs s'affrontent en lançant une balle.
+Pendant ce temps, j'ai aussi découvert le monde du jeu vidéo - principalement grâce a des amis qui avaient du matériel plus à jour et un accès internet et qui m'ont fourni plusieurs petits jeux sur disquettes. Ça a définitivement confirmé que la programmation n'avait pour ainsi dire pas de limites !
 
-Puis je me suis renseigne sur les langages de programmation, j'ai commence a jouer avec du Visual Basic et du C dans l'optique de satisfaire ma curiosite grandissante et d'assouvir une passion naissante. J'ai pu avoir mes premieres vrais cours de programmation au lycee (S option Sciences de l'Ingenieur). En 3 ans j'ai fait un bon en competences techniques et fonctionnelles, notamment grace au projet de terminale : fabriquer une webcam capable de detecter les mouvements et suivre le deplacement d'objets/personnes. On avait donc les 2 cotes que j'aimais : hardware (socle mobile, circuits de commande et puissance) et software (traitement de l'image, commandes du socle), et cela m'a motive a enchainer sur un DUT en Genie Electrique et Informatique Industrielle afin de garder ces deux aspects.
+Puis je me suis renseigné sur les langages de programmation, j'ai commencé à jouer avec du Visual Basic et du C par curiosité puis par goût. J'ai pu avoir mes premiers vrais cours de programmation au lycée (S option Sciences de l'Ingénieur). En 3 ans j'ai fait un bon en compétences techniques et fonctionnelles, notamment grâce au projet de terminale : fabriquer une webcam capable de détecter les mouvements et suivre le déplacement d'objets/personnes. On avait donc les 2 côtés que j'aimais : hardware (socle mobile, circuits de commande et puissance) et software (traitement de l'image, commandes du socle), et cela m'a motivé à enchainer sur un DUT en Génie Electrique et Informatique Industrielle afin de garder ces deux aspects.
 
-Lors du DUT, la decouverte de l'algorithmique et de la resolution de problemes theoriques/mathematiques m'a finalement oriente vers des etudes longues plus specialisees en informatique decisionnelle. J'ai neanmoins beaucoup aime apprendre a programmer des microcontroleurs pour tout un tas de projets techniques, les limitations techniques etant dans ces cas-la bien plus fortes elles forcent a apprehender le design differemment. ces deux annees m'ont donc permis d'aborder la facette industrielle de l'informatique - une vision plus professionnelle de la chose.
+Lors du DUT, la découverte de l'algorithmique et de la résolution de problèmes théoriques/mathématiques m'a finalement orienté vers des études longues plus spécialisées en informatique décisionnelle. Ces deux années m'ont donc permis d'aborder la facette industrielle de l'informatique - une vision plus professionnelle de la chose.
 
-C'est ensuite a l'INSA, en filiere Informatique, que j'ai termine ma formation dans le domaine avec beaucoup de theorie poussee (a tous les niveaux). J'y ai aussi appris a maitriser plus de langages, parmis lesquels le C++, le Java et le Python. Grace aux activites extra-scolaires j'ai eu la chance d'appliquer ces connaissances en cours de formation en plus des TD/TP classique - par exemple en participant au club de robotique de l'ecole.
-Afin de financer en partie mes etudes et mes passions, j'ai aussi fait mes premiers travaux de developpement informatique remuneres dans le cadre de la Junior-Entreprise de l'ecole.
+C'est ensuite à l'INSA, en filière Informatique, que j'ai terminé ma formation avec beaucoup de théorie poussée (à tous les niveaux). J'y ai aussi appris à maitriser plus de langages, parmi lesquels le C++, le Java et le Python. Grace aux activités extra-scolaires j'ai eu la chance d'appliquer ces connaissances en cours de formation en plus des TD/TP classique - par exemple en participant au club de robotique de l'école.
+Afin de financer en partie mes études et mes passions, j'ai aussi fait mes premiers travaux de développement informatique rémunérés dans le cadre de la Junior-Entreprise de l'école.
 
-En sortant d'ecole j'ai cherche un emploi, et j'ai ete contacte par Supralog (une SSII) pour devenir prestataire chez Amadeus - l'industrie du tourisme ne m'etait pas vraiment familiere mais le poste m'interessait enormement : du developpement C++ backend dans une tres grosse entreprise reconnue dans le milieu, et qui incluait des problemes d'optimisation/algorithmique specifiques aux data structures utilisees lors du pricing et ticketing de reservations.
-Depuis j'ai rejoint Amadeus directement et change de departement pour apprendre de nouvelles choses, passant des exigences d'integrite et traitement des donnees aux exigences techniques induites par un traffic important et des temps de reponse contractuellement imposes.
-Dans cette nouvelle equipe j'ai eu la chance de pouvoir aborder de nouveaux challenges inherents au fonctionnement dans un cloud, mais aussi d'apprendre les bases de techniques de machine learning afin de remplacer du temps de traitement online par du training offline de modeles.
+En sortant d'école j'ai cherché un emploi, et j'ai été contacté par Supralog (une SSII) pour devenir prestataire chez Amadeus - l'industrie du tourisme ne m'était pas vraiment familière mais le poste m'intéressait énormément : du développement C++ back end dans une très grosse entreprise reconnue dans le milieu, et qui incluait des problèmes d'optimisation/algorithmique spécifiques aux data structures utilisées lors du pricing et ticketing de réservations.
+Depuis j'ai rejoint Amadeus directement et changé de département pour apprendre de nouvelles choses, passant des exigences d'intégrité et traitement des données aux exigences techniques induites par un trafic important et des temps de réponse contractuellement imposés.
+Dans cette nouvelle équipe j'ai eu la chance de pouvoir aborder de nouveaux challenges inhérents au fonctionnement dans le cloud, mais aussi d'apprendre les bases du machine Learning afin de remplacer du temps de traitement online par du training offline de modèles.
 
-En 10 ans, il serait pretentieux de ma part d'affirmer avoir fait le tour de tout ce qu'Amadeus a a proposer, mais je cherche neanmoins un renouveau dans ma vie professionnelle et c'est une chose que je pense pouvoir trouver dans le monde du jeu video - qui allie donc 2 passions chez moi.
+En 10 ans, il serait prétentieux de ma part d'affirmer avoir fait le tour de tout ce qu'Amadeus a à proposer, mais je cherche néanmoins un renouveau dans ma vie professionnelle et c'est une chose que je pense pouvoir trouver dans le monde du jeu vidéo - qui allie donc 2 passions chez moi.
 
 
 - Etes-vous passionné par le développement informatique ?
-Tout-a-fait. Des mes premiers pas dans ce monde (qui ont donc consiste a recopier un programme en BASIC) j'ai ete impressionne par les possibilites que la programmation offrait. J'y ai toujours vu le moyen de repondre de maniere efficace et automatisee a tout un tas de problemes - theoriques ou pratiques. De plus la possibilite de faire virtuellement tout ce que l'on souhaite avec un minimum de patience et d'investissement me parait encore aujourd'hui completement folle, alors que ca fait 10 ans que je travaille dans le domaine !
-J'essaie de me tenir regulierement a jour des avancees theoriques et pratiques, j'essaie d'apprendre de nouveaux langages ou de parfaire ma technique de ceux que je connais deja en participant a des conferences/salons specialises ou en organisant et participant a des coding games.
+Tout-à-fait. Dès mes premiers pas dans ce monde j'ai été impressionné par les possibilités que la programmation offrait. J'y ai toujours vu le moyen de répondre de manière efficace et automatisée a tout un tas de problèmes - théoriques ou pratiques. De plus la possibilité de faire virtuellement tout ce que l'on souhaite avec en usant de patience, d'investissement et de logique me parait encore aujourd'hui complètement folle, alors que ça fait 10 ans que je travaille dans le domaine !
+J'essaie de me tenir régulièrement à jour des avancées théoriques et pratiques, j'essaie d'apprendre de nouveaux langages ou de parfaire ma technique de ceux que je connais déjà en participant à des conférences/salons spécialisés ou en organisant et participant à des coding games.
 
 - Quel est votre niveau en C++ ? Combien de temps avez-vous passé à développer en C++ ?
-Je pense avoir un niveau assez avance en C++. J'ai plus de 10 ans d'experience avec ce langage, et si je ne suis certainement pas un maitre inconteste je suis a meme de :
-	- Gerer le cycle de dev d'un project du design/specifications a la maintenance,
-	- Anticiper les limites d'une architecture en essayant de pas faire d'optimisation prematuree,
-	- Aider mes collegues pour transmettre ce que je sais, et apprendre de ceux qui en savent plus que moi.
-
+Je pense avoir un niveau assez avance en C++. J'ai plus de 10 ans d'expérience avec ce langage, et si je ne suis certainement pas un maitre incontesté je suis à même de :
+-	Gérer le cycle de dev d'un projet du design/spécifications à la maintenance,
+-	Anticiper les limites d'une architecture en essayant de pas faire d'optimisation prématurée,
+-	Aider mes collègues avec des revues de code, et apprendre de ceux qui en savent plus que moi.
 
 - Quel est votre niveau sur les pointeurs et les algorithmes sur les structures de données ?
-Je suis a l'aise avec les pointeurs et leur utilisation. C'est d'ailleurs une des qualites requises dans mon poste actuel, ou nous utilisons quotidiennement des frameworks maison bases sur la (re)utilisation de pointeurs et zones memoires afin de maximiser le temps et les ressources consacres a faire du process utile plutot que de l'allocation memoire ou de la copie d'element.
-De meme les structures de donnees classiques ou specialises sont monnaie courante pour moi, et j'ai un baggage solide dans les algorithmes operant sur les data structures comme ceux d'informatique decisionnelle. 
+Je suis à l'aise avec les pointeurs et leur utilisation. C'est d'ailleurs une des qualités requises dans mon poste actuel, ou nous utilisons quotidiennement des frameworks maison basés sur la (ré)utilisation de pointeurs et zones mémoires afin de maximiser le temps et les ressources consacrés à faire du process utile plutôt que de l'allocation mémoire ou de la copie d'éléments.
+De même les structures de données classiques ou spécialisées sont monnaie courante pour moi, et j'ai un bagage solide dans les algorithmes opérant sur les data structures ou ceux d'informatique décisionnelle.
 
 - Comment améliorez-vous vos connaissances en informatique ?
+Je parcours régulièrement des forums et newgroups consacrés aux nouvelles technologies et à l’informatique. Je participe aussi activement aux événements internes à mon entreprise actuelle (coding dojos, conférences) et j’essaie quand je le peux d’assister à des présentations et ateliers à titre personnel (RivieraDEV par exemple).
 
 - Quelles stratégies connaissez-vous pour augmenter la fiabilité du code écrit ?
+Les premières qui me viennent en tête sont celles qui peuvent être automatisées dans un pipeline de continuous integration: analyse statique de code, test unitaires et de non-régressions (integration).
+Il est donc primordial que la couverture du code par les tests soit la plus importante possible – une façon d’y parvenir est de promouvoir le test driven development.
+
+Un autre moyen qui me semble majeur est la mise en place de code reviews, et ce dès le début de du développement. Avec des outils comme Bitbucket il est possible d’ouvrir une pull request tôt dans le projet et de commencer à avoir des retours de la part des collègues afin de jauger de la pertinence de l’implémentation en cours.
+
+Toutes ces techniques sont applicables avant le déploiement d’un code, et vise à prévenir au maximum les erreurs et bugs avant qu’ils n’atteignent la production. Parmi une des dernières étapes qui peuvent permettre de détecter d’éventuels soucis, je suis friand de canary testing qui permet de vérifier rapidement et facilement en conditions réelles le comportement du software avant de le publier globablement.
 
 - Qu'est ce qui a motivé votre candidature vers le secteur du jeu ?
+Je suis d’une manière générale très intéressé par les jeux sous toutes les formes, cartes, plateaux, vidéo… J’ai par exemple créé 2 de jeux de figurines qui ont eu un petit succès local dans mon entourage (mais qu’on a remplacées depuis par des règles plus reconnus en dehors du club de jeux).
+Le jeu vidéo m’apparait particulièrement attractif pour deux raisons : premièrement je suis un gros consommateur et c’est une vraie passion, deuxièmement c’est un domaine assez éloigné de ce que je connais déjà professionnellement et qui propose de nouvelles voies à explorer qui titillent ma curiosité et me motivent énormément.
 
 - Quelle est la qualité que vos collègues apprécient particulièrement chez vous ?
+Mon honnêteté et mon implication. J’ai souvent des retours positifs sur mon engagement à délivrer à temps un code de qualité et dont l’intégration et le déploiement sont généralement faciles.
 
-- Quels sont les projets personnels ou professionnels sur lesquels vous avez particulièrement apprécié travailler et pourquoi ? 
+- Quels sont les projets personnels ou professionnels sur lesquels vous avez particulièrement apprécié travailler et pourquoi ?
+Du côté personnel, j’ai adoré travailler sur une petite application Android destinée à gérer les appariements lors de tournois en équipe parce que ça m’a permis de mettre à profit mes compétences de développeur pour toute l’équipe tout en utilisant mes connaissances en termes d’algorithmique et en m’apprenant les bases des applications Android (UI comprise).
+
+Sur le plan professionnel je pense que c’est le dernier projet que mon équipe a terminé (Data Driven Polling). Il s’agit de déterminer si les données conservées en cache pour réduire le trafic vers les compagnies aériennes clientes peuvent être considérées comme fraiches ou s’il faut demander des valeurs plus à jour à l’inventaire de la compagnie (source de vérité). Ce qui m’y a plu est clairement de faire mes armes dans le machine learning et d’avoir presque carte blanche pour, une fois prouvé utile et efficace, déployer le tout en production de manière automatisée. On a gagné en efficacité pour l’ensemble des clients qui ont voulu faire partie du projet tout en diminuant les coûts d’exploitation !
 
 - Sur quel type de machine développez-vous/jouez-vous ? (OS, CPU, Ram, Carte 3D …)
+J’ai un PC portable professionnel qui tourne sur Ubuntu. Les spécifications sont plutôt légères puisqu’on a à disposition des servers de dev (SUSE Linux Enterprise Server) bien plus costauds (32 cœurs, 128 Go de RAM).
+
+Pour tout ce qui est personnel, j’utilise mon ordinateur fixe pour le jeu et le développement :
+-	OS : Windows 10 avec WSL Ubuntu (je n’utilise quasiment plus le dual boot)
+-	CPU : AMD Ryzen 3600X
+-	RAM : 16GoDDR4@3200MHz
+-	GPU : nVidia GTX 1080Ti
 
 - Quelle connexion Internet avez-vous (ADSL, VDSL, Fibre …) ?
+VDSL pour le moment, mais la fibre est en cours de déploiement dans mon quartier – j’ai bon espoir de l’avoir bientôt !
 
 - Actuellement, combien d’heures passez-vous par semaine à développer et avec quels langages ?
+En général autour de 40h par semaine de développement pur, réparties à 80% pour mon emploi actuel (C++, Python) et mes projets personnels (C++, Rust dernièrement).
 
 - Avez-vous utilisé certains modèles d’architecture logicielles pour faire des interfaces utilisateur ? Si oui lesquels et quels sont vos préférés ?
+Le seul patron applicable aux UIs que je connaisse et que j’ai utilisé est le Modèle-Vue-Contrôleur.
+Je l’ai particulièrement apprécié pour la possibilité de séparer les différentes tâches facilement afin de paralléliser le développement.
+Je n’ai par contre pas de point de comparaison avec d’autres modèles d’architecture.
 
 - Comment caractérisez-vous un bon développeur ?
+C’est une question délicate, mais je pense qu’un bon développeur doit avoir certaines caractéristiques clefs :
+-	Une esprit d’analyse et une vision globale du projet dans lequel s’inscrit son travail,
+-	Une ouverture d’esprit importante, les idées des autres peuvent apporter beaucoup,
+-	Une faculté à évaluer et si possible corriger les limites d’un code/design sans tomber dans une optimisation coûteuse et peu pertinente,
+-	De la curiosité ; en cherchant à comprendre les choses on apprend énormément.
 
 - Le développement d’interface nécessite des compétences techniques moins importantes que d’autres parties comme l’IA/3D. Quelles sont vos réflexions par rapport à ça ?
+D’un point de vue purement technique, je ne suis pas certain que le développement d’interface exige moins de compétences techniques mais plutôt des différentes.
+Pour ce qui est du développement d’IA ou de moteur physique par exemple, une part importante de la technicité requise vient des frameworks hyper spécialisés et des bases mathématiques et théoriques nécessaires pour bien comprendre ce que l’on fait. En ce qui concerne les UIs, les bases sont peut-être plus intuitives mais produire un code de qualité est tout autant exigeant. Et ce n’est que parler du code en lui-même, je pense personnellement que les compétences nécessaires sont juste déplacées : en terme de design d’interface il suffit de regarder autour de soi tout un tas de logiciels ou d’objets (y compris dans les jeux vidéo) pour se rendre compte qu’il n’est pas si évident de bien designer une UI. Après tout, comme le dit le livre The Design of Everyday Things : si un guide est nécessaire c’est peut-être que l’interface n’est pas parfaite.
+Donc si les compétences techniques (presque bas niveau) sont peut-être moins requises, c’est peut-être simplement parce que la complexité est ailleurs : en amont, dans des considérations de plus haut niveau d’abstraction.
