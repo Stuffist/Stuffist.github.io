@@ -131,8 +131,8 @@
   \smallskip\large
   \noindent
   \begin{minipage}{\linewidth}
-    \ifstrequal{#2}{}{ }{\textbf{\color{accent}#2}\hspace{2em}}%
-    \ifstrequal{#3}{}{ }{{\small\faCalendar\hspace{0.5em}#3}\hspace{2em}}%
+    \ifstrequal{#2}{}{ }{\textbf{\color{accent}#2}\hspace{1em}}%
+    \ifstrequal{#3}{}{ }{{\small\faCalendar\hspace{0.5em}#3}\hspace{1em}}%
     \ifstrequal{#4}{}{ }{{\small\faMapMarker\hspace{0.5em}#4}}%
   \end{minipage}%
   \medskip\normalsize
